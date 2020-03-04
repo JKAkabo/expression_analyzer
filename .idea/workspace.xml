@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26dfdfaf-5093-422a-8642-3294ca8cce97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YJ5Hk88BC6uaWS2aaudYhDfGDO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neutronconsolidate.interpreter" />
+      <recent name="com.neutronconsolidate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestRunner">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.neutronconsolidate.Main" />
+      <module name="expression_analysis" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.neutronconsolidate.interpreter.TestRunner" />
+      <module name="expression_analysis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.neutronconsolidate.interpreter.nodes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestRunner" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26dfdfaf-5093-422a-8642-3294ca8cce97" name="Default Changelist" comment="" />
+      <created>1582647771112</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582647771112</updated>
+      <workItem from="1582647775630" duration="43007000" />
+      <workItem from="1582760643674" duration="1114000" />
+      <workItem from="1582816390328" duration="410000" />
+      <workItem from="1582914752886" duration="3686000" />
+      <workItem from="1583173901040" duration="37233000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583188019715">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583188019715" />
+    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser" timestamp="1583323990684">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1583323990684" />
+    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582665427515">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1582665427515" />
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1583275616159">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616159" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1583275616157">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616157" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1583275616157">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616157" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1583275616158">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616158" />
+    <state width="1878" height="405" key="GridCell.Tab.1.bottom" timestamp="1583268985826">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="405" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985826" />
+    <state width="1878" height="405" key="GridCell.Tab.1.center" timestamp="1583268985823">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="405" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985823" />
+    <state width="1878" height="405" key="GridCell.Tab.1.left" timestamp="1583268985823">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="405" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985823" />
+    <state width="1878" height="405" key="GridCell.Tab.1.right" timestamp="1583268985824">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1878" height="405" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985824" />
+    <state x="461" y="250" key="SettingsEditor" timestamp="1583188352080">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1583188352080" />
+    <state x="637" y="444" key="com.intellij.ide.util.TipDialog" timestamp="1583173916861">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="637" y="444" key="com.intellij.ide.util.TipDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583173916861" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1583186974693">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1583186974693" />
+    <state x="722" y="225" key="refactoring.ChangeSignatureDialog" timestamp="1583176453422">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="722" y="225" key="refactoring.ChangeSignatureDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583176453422" />
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1583324826557">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1583324826557" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/neutronconsolidate/Main.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/expression_analysis$Main.ic" NAME="Main Coverage Results" MODIFIED="1582733567560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
