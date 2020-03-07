@@ -8,14 +8,14 @@ public class VariableResolver {
     }
 
     private String tableName;
-    private HashMap<String, Object> cache;
+    private HashMap<String, Object> cache = new HashMap<>();
 
     private void addToCache(String name, Object value) {
         this.cache.put(name, value);
     }
 
     private Object retrieveFromDB(String fieldName) {
-        return 2001;
+        return (double) 2001;
     }
 
     public Object resolve(String variableName) {

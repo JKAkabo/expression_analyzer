@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26dfdfaf-5093-422a-8642-3294ca8cce97" name="Default Changelist" comment="" />
+    <list default="true" id="26dfdfaf-5093-422a-8642-3294ca8cce97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/BinaryLogicalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/ComparisonOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/UnaryLogicalOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/Variable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/ArithmeticOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/BinaryArithmeticOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/ConstantNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Interpreter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Interpreter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Lexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Lexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/NodeVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Token.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/Token.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/TokenType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/TokenType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expression_analysis/com/neutronconsolidate/interpreter/UnaryArithmeticOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/ArithmeticOperator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/BinaryArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/BinaryArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/ConstantNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/ConstantNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Function.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/Function.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Lexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Lexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/NodeVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/Number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/UnaryArithmeticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/UnaryArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/VariableResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/VariableResolver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,20 +69,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YJ5Hk88BC6uaWS2aaudYhDfGDO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.neutronconsolidate.interpreter.nodes" />
       <recent name="com.neutronconsolidate.interpreter" />
       <recent name="com.neutronconsolidate" />
     </key>
@@ -94,7 +141,9 @@
       <workItem from="1582760643674" duration="1114000" />
       <workItem from="1582816390328" duration="410000" />
       <workItem from="1582914752886" duration="3686000" />
-      <workItem from="1583173901040" duration="37233000" />
+      <workItem from="1583173901040" duration="44566000" />
+      <workItem from="1583361100225" duration="7291000" />
+      <workItem from="1583587275610" duration="3468000" />
     </task>
     <servers />
   </component>
@@ -106,54 +155,62 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="424" y="273" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583188019715" />
-    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser" timestamp="1583323990684">
+    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser" timestamp="1583361377053">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1583323990684" />
-    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582665427515">
+    <state x="700" y="319" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1177@0.23.1920.1177" timestamp="1583361377053" />
+    <state x="710" y="459" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583609250463">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1582665427515" />
-    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1583275616159">
+    <state x="710" y="459" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583609250463" />
+    <state x="718" y="503" width="487" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583364836300">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616159" />
-    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1583275616157">
+    <state x="718" y="503" width="487" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1920.1177@0.23.1920.1177" timestamp="1583364836300" />
+    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583361559367">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616157" />
-    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1583275616157">
+    <state x="397" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583361559367" />
+    <state width="1878" height="405" key="GridCell.Tab.0.bottom" timestamp="1583402840952">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616157" />
-    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1583275616158">
+    <state width="1878" height="405" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840952" />
+    <state width="1878" height="405" key="GridCell.Tab.0.center" timestamp="1583402840951">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583275616158" />
-    <state width="1878" height="405" key="GridCell.Tab.1.bottom" timestamp="1583268985826">
+    <state width="1878" height="405" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840951" />
+    <state width="1878" height="405" key="GridCell.Tab.0.left" timestamp="1583402840950">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985826" />
-    <state width="1878" height="405" key="GridCell.Tab.1.center" timestamp="1583268985823">
+    <state width="1878" height="405" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840950" />
+    <state width="1878" height="405" key="GridCell.Tab.0.right" timestamp="1583402840951">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985823" />
-    <state width="1878" height="405" key="GridCell.Tab.1.left" timestamp="1583268985823">
+    <state width="1878" height="405" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840951" />
+    <state width="1878" height="405" key="GridCell.Tab.1.bottom" timestamp="1583402840954">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985823" />
-    <state width="1878" height="405" key="GridCell.Tab.1.right" timestamp="1583268985824">
+    <state width="1878" height="405" key="GridCell.Tab.1.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840954" />
+    <state width="1878" height="405" key="GridCell.Tab.1.center" timestamp="1583402840953">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state width="1878" height="405" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583268985824" />
-    <state x="461" y="250" key="SettingsEditor" timestamp="1583188352080">
+    <state width="1878" height="405" key="GridCell.Tab.1.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840953" />
+    <state width="1878" height="405" key="GridCell.Tab.1.left" timestamp="1583402840952">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1583188352080" />
-    <state x="637" y="444" key="com.intellij.ide.util.TipDialog" timestamp="1583173916861">
+    <state width="1878" height="405" key="GridCell.Tab.1.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840952" />
+    <state width="1878" height="405" key="GridCell.Tab.1.right" timestamp="1583402840953">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="637" y="444" key="com.intellij.ide.util.TipDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583173916861" />
+    <state width="1878" height="405" key="GridCell.Tab.1.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583402840953" />
+    <state x="461" y="250" key="SettingsEditor" timestamp="1583609323405">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="461" y="250" key="SettingsEditor/0.23.1920.1177@0.23.1920.1177" timestamp="1583609323405" />
+    <state x="637" y="444" key="com.intellij.ide.util.TipDialog" timestamp="1583587275840">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="637" y="444" key="com.intellij.ide.util.TipDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583587275840" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1583186974693">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
@@ -162,10 +219,14 @@
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state x="722" y="225" key="refactoring.ChangeSignatureDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1583176453422" />
-    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1583324826557">
+    <state x="625" y="286" key="run.anything.popup" timestamp="1583366091731">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
-    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1583324826557" />
+    <state x="625" y="286" key="run.anything.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1583366091731" />
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup" timestamp="1583365784736">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="625" y="288" width="670" height="676" key="search.everywhere.popup/0.23.1920.1177@0.23.1920.1177" timestamp="1583365784736" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -174,6 +235,16 @@
           <url>file://$PROJECT_DIR$/src/com/neutronconsolidate/Main.java</url>
           <line>132</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/nodes/NodeVisitor.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/neutronconsolidate/interpreter/Parser.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

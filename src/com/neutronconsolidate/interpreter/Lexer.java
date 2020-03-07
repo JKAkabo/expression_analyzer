@@ -1,5 +1,6 @@
 package com.neutronconsolidate.interpreter;
 
+
 public class Lexer {
     public Lexer(String expression) {
         this.chars = expression.toCharArray();
@@ -61,7 +62,20 @@ public class Lexer {
         return identifierBuilder.toString();
     }
 
-    public Token<Object> getNextToken() throws Exception {
+    public String getVariable() throws Exception {
+        StringBuilder variableBuilder = new StringBuilder();
+        this.pop();
+        skipWhitespace();
+        variableBuilder.append(this.currentChar);
+        this.pop();
+        while (this.currentChar != null && (isAlphaNum(this.currentChar) || this.currentChar == '.')) {
+            variableBuilder.append(this.currentChar);
+            this.pop();
+        }
+        return variableBuilder.toString();
+    }
+
+    public Token getNextToken() throws Exception {
         while (this.currentChar != null) {
             // Skip Whitespaces
             if (this.currentChar == ' ') {
@@ -69,50 +83,97 @@ public class Lexer {
                 continue;
             }
 
+            if (this.currentChar == '{') {
+                return new Token(TokenType.VARIABLE, getVariable());
+            }
+
+            if (this.currentChar == '}') {
+                this.pop();
+                return new Token(TokenType.R_BRACES,'}');
+            }
+
             if (isAlpha(this.currentChar)) {
                 String identifier = getIdentifier();
                 if (this.currentChar != null && this.currentChar == '(')
-                    return new Token<>(TokenType.FUNCTION, identifier);
-                return new Token<>(TokenType.CONSTANT, identifier);
+                    return new Token(TokenType.FUNCTION, identifier);
+                return new Token(TokenType.CONSTANT, identifier);
             }
 
             if (isDigit(this.currentChar)) {
-                return new Token<>(TokenType.INTEGER, this.getNumberLiteral());
+                return new Token(TokenType.INTEGER, this.getNumberLiteral());
             }
 
-            if (this.currentChar == ArithmeticOperator.ADD.getValue()) {
+            if (this.currentChar == '+') {
                 this.pop();
-                return new Token<>(TokenType.ADD, ArithmeticOperator.ADD.getValue());
+                return new Token(TokenType.ADD, '+');
             }
 
-            if (this.currentChar == ArithmeticOperator.SUBTRACT.getValue()) {
+            if (this.currentChar == '-') {
                 this.pop();
-                return new Token<>(TokenType.SUB, ArithmeticOperator.SUBTRACT.getValue());
+                return new Token(TokenType.SUB, '-');
             }
 
-            if (this.currentChar == ArithmeticOperator.MULTIPLY.getValue()) {
+            if (this.currentChar == '*') {
                 this.pop();
-                return new Token<>(TokenType.MUL, ArithmeticOperator.MULTIPLY.getValue());
+                return new Token(TokenType.MUL, '*');
             }
 
-            if (this.currentChar == ArithmeticOperator.DIVIDE.getValue()) {
+            if (this.currentChar == '/') {
                 this.pop();
-                return new Token<>(TokenType.DIV, ArithmeticOperator.DIVIDE.getValue());
+                return new Token(TokenType.DIV, '/');
             }
 
-            if (this.currentChar == Parenthesis.LEFT.getValue()) {
+            if (this.currentChar == '(') {
                 this.pop();
-                return new Token<>(TokenType.L_PARENTHESIS, Parenthesis.LEFT.getValue());
+                return new Token(TokenType.L_PARENTHESIS, '(');
             }
 
-            if (this.currentChar == Parenthesis.RIGHT.getValue()) {
+            if (this.currentChar == ')') {
                 this.pop();
-                return new Token<>(TokenType.R_PARENTHESIS, Parenthesis.RIGHT.getValue());
+                return new Token(TokenType.R_PARENTHESIS, ')');
+            }
+
+            if (this.currentChar == '=') {
+                this.pop();
+                return new Token(TokenType.EQ, '=');
+            }
+
+            if (this.currentChar == '<') {
+                this.pop();
+                if (this.currentChar == '=') {
+                    this.pop();
+                    return new Token(TokenType.LTE, "<=");
+                }
+                return new Token(TokenType.LT, '<');
+            }
+
+            if (this.currentChar == '>') {
+                this.pop();
+                if (this.currentChar == '=') {
+                    this.pop();
+                    return new Token(TokenType.GTE, ">=");
+                }
+                return new Token(TokenType.GT, '>');
+            }
+
+            if (this.currentChar == '&') {
+                this.pop();
+                return new Token(TokenType.AND, '&');
+            }
+
+            if (this.currentChar == '|') {
+                this.pop();
+                return new Token(TokenType.OR, '|');
+            }
+
+            if (this.currentChar == '!') {
+                this.pop();
+                return new Token(TokenType.NOT, '!');
             }
 
             this.throwParseError();
         }
-        return new Token<>(TokenType.EOF, TokenType.EOF.getValue());
+        return new Token(TokenType.EOF, TokenType.EOF.getValue());
     }
 
 

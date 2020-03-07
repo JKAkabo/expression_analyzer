@@ -12,12 +12,18 @@ public enum TokenType {
     COMMA("COMMA"),
     CONSTANT("CONSTANT"),
     FUNCTION("FUNCTION"),
+    VARIABLE("VARIABLE"),
     LT("LT"),
     GT("GT"),
     LTE("LTE"),
     GTE("GTE"),
     EQ("EQ"),
-    NEQ("NEQ");
+    NEQ("NEQ"),
+    AND("AND"),
+    OR("OR"),
+    NOT("NOT"),
+    L_BRACES("L_BRACES"),
+    R_BRACES("R_BRACES");
 
 
     private final String value;
